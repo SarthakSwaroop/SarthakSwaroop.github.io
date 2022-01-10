@@ -1,9 +1,9 @@
 {
-  "name": "anurag-hazra",
+  "name": "Sarthak-Bansal",
   "private": true,
-  "description": "Anurag Hazra Portfolio Site",
+  "description": "Sarthak Bansal Portfolio ",
   "version": "0.1.0",
-  "author": "Anurag Hazra <hazru.anurag@gmail.com>",
+  "author": "Sarthak Bansal <sarthakswarup00@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",

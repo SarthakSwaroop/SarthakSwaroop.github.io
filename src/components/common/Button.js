@@ -8,6 +8,7 @@ const common = css`
   cursor: pointer;
   transition: 0.2s;
 
+
   &:disabled {
     cursor: not-allowed;
     opacity: 0.6;

@@ -19,40 +19,19 @@ const About = () => {
           <Avatar src="hfest_avatar_2.jpg" />
         </div>
         <p>
-          Hi, I'm Anurag Hazra, a self-taught passionate FrontEnd developer from
-          India, currently working at{' '}
-          <a className="about__link" href="https://razorpay.com">
-            Razorpay
+          Hi, I'm Sarthak Bansal, a Sophomore majoring in Computer Science at
+          the{' '}
+          <a className="about__link" href="https://umass.edu">
+            University of Massachusetts Amherst
           </a>{' '}
-          as a FrontEnd engineer. I've been building stuff on the web since when
-          I was in 6th standard, I've made countless side projects and I also
-          posses magical powers of using react to build delightful user
-          interfaces.
+          . I have a passion for software and web development and love to code during free time. I can work independently and also am team player with ability to multitask; fast learner with basic knowledge of Python, C, and MongoDB. I am fluid in HTML/CSS, Java, and JavaScript with a good knowledge of Data Structures and Algorithms.
           <br />
-          <br />I also love doing <b>open source</b> development, I actively
-          maintain various notable open source projects with over, <br />
-          <b>30k+ stars on GitHub</b> and <b>50m+ hits</b>. It gives me a
-          wonderful feeling of achievement and joy which I cannot explain in
-          words.
+          <br />I am passionate about neat design and I'm always looking for ideas to build and prototype. If you share the same passion, feel free to get in touch.
+          <br />
+          <br /><i>I am actively looking for an internship in Summer 2022.</i>
         </p>
       </AboutInfo>
 
-      <Flex justify="space-between" className="quotes__wrapper">
-        <Quote>
-          <p>“Simplicity is the baddest choice to be the best.“</p>
-        </Quote>
-        <Quote>
-          <p>
-            “I know I’m not successful enough, but I’m passionate enough not to
-            worry about success.“
-          </p>
-        </Quote>
-        <Quote>
-          <p>
-            “Creativity is the driver of an unstoppable train called Passion.”
-          </p>
-        </Quote>
-      </Flex>
     </AboutWrapper>
   );
 };

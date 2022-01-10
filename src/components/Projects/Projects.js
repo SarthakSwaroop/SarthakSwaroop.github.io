@@ -8,7 +8,7 @@ import IFrame from '@common/IFrame';
 import Button, { IconButton } from '@common/Button';
 
 import SmallProjects from './SmallProjects';
-import JsProjects from './JsProjects';
+
 
 import ProjectTemplate from './ProjectTemplate';
 import { ProjectLinks, ProjectPreview, Tags } from './ProjectTemplate.style';
@@ -46,7 +46,7 @@ const Projects = () => {
 
   return (
     <ProjectsWrapper id="projects" style={{ marginBottom: 100 }}>
-      <PageHeader>Side Projects</PageHeader>
+      <PageHeader>Projects</PageHeader>
 
       {projects.allMarkdownRemark.edges.map(({ node }) => (
         <ProjectTemplate
@@ -77,7 +77,7 @@ const Projects = () => {
               <Tags>
                 <FontAwesomeIcon icon={['fab', 'js']} />
                 <FontAwesomeIcon icon={['fab', 'html5']} />
-                <FontAwesomeIcon icon={['fab', 'css3']} />
+                <FontAwesomeIcon icon={['fab', 'react']} />
               </Tags>
             </ProjectPreview>
           }
@@ -85,7 +85,6 @@ const Projects = () => {
       ))}
 
       <SmallProjects />
-      <JsProjects />
     </ProjectsWrapper>
   );
 };

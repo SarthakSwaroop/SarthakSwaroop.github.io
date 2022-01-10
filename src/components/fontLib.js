@@ -3,6 +3,7 @@ import { library, config } from '@fortawesome/fontawesome-svg-core';
 
 import {
   faGithub,
+  faLinkedin,
   faDribbble,
   faTwitter,
   faFacebook,
@@ -34,6 +35,7 @@ import {
 library.add(
   faGithub,
   faDribbble,
+  faLinkedin,
   faTwitter,
   faFacebook,
   faReddit,

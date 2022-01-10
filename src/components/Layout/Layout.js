@@ -49,7 +49,9 @@ const Layout = ({ children }) => {
         <Footer />
       </>
     </ThemeProvider>
+    
   );
+  
 };
 
 Layout.propTypes = {

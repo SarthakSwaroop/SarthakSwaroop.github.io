@@ -41,18 +41,17 @@ export const CodeCard = () => {
   return (
     <CodeCardWrapper>
       <pre>
-        1&nbsp;&nbsp;class <b>Person</b> {'{'}
+        1&nbsp;&nbsp;&nbsp;&nbsp;class <b>Person</b> {'{'}
       </pre>
-      <pre>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor() {'{'}</pre>
+      <pre>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor() {'{'}</pre>
       <pre>
-        3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "<b>Anurag Hazra</b>";
+        3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "<b>Sarthak Bansal</b>";
       </pre>
       <pre>
-        4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = ["<b>DESIGN</b>", "<b>DEV</b>"];
+        4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = ["<b>Software</b>", "<b>Web Development</b>", "<b>Game Design</b>"];
       </pre>
-      <pre onClick={changeText}>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = {text}</pre>
-      <pre>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {'}'}</pre>
-      <pre>7&nbsp;&nbsp;{'}'}</pre>
+      <pre>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {'}'}</pre>
+      <pre>7&nbsp;&nbsp;&nbsp;&nbsp;{'}'}</pre>
     </CodeCardWrapper>
   );
 };
@@ -82,7 +81,7 @@ export const ColorPalette = withTheme(({ theme }) => {
   return (
     <ColorPaletteWrapper>
       <ColorBox color={theme.primaryColor} />
-      <ColorBox color={'#6A98F0'} />
+      <ColorBox color={'#8655ec'} />
       <ColorBox color={theme.gradient} />
       <ColorBox color={theme.primaryBlack} />
       <ColorBox color={theme.accentColor} />

@@ -8,10 +8,10 @@ const AvatarWrapper = styled.div`
   width: 230px;
   height: 230px;
   border-radius: 50%;
-  border: 5px solid #f8f8f8;
+  border: 5px solid #7300b6;
   overflow: hidden;
   margin: 0;
-  background-color: #f8f8f8;
+  background-color: #7300b6;
 `;
 const Avatar = ({ src }) => {
   return (

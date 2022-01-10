@@ -20,8 +20,8 @@ const website = {
   disqusShortName: 'anuraghazra',
   googleAnalyticsID: 'UA-119972196-1',
   // Manifest
-  themeColor: '#6D83F2',
-  backgroundColor: '#6D83F2',
+  themeColor: '#926df2',
+  backgroundColor: '#926df2',
 };
 
 module.exports = website;

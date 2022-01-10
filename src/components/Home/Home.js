@@ -18,10 +18,9 @@ const ThingsILove = () => (
       <CardIcon>
         <FontAwesomeIcon icon="code" />
       </CardIcon>
-      <CardTitle>FrontEnd</CardTitle>
+      <CardTitle>Programming</CardTitle>
       <CardText>
-        I'm more front end focused and love to work with Reactjs as well as pure
-        HTML, CSS.
+        I code during my free time; I like to work with Reactjs for Web Development and Java for basic projects.
       </CardText>
     </Card>
 
@@ -29,10 +28,9 @@ const ThingsILove = () => (
       <CardIcon>
         <FontAwesomeIcon icon={['fab', 'js']} />
       </CardIcon>
-      <CardTitle>Javascript</CardTitle>
+      <CardTitle>Gaming</CardTitle>
       <CardText>
-        I just extremely love javascript, I can’t even express how much I love
-        javascript with just a few lines.
+        I like to play video games when I am bored. I play my playstaion to release stress.
       </CardText>
     </Card>
 
@@ -40,10 +38,9 @@ const ThingsILove = () => (
       <CardIcon>
         <FontAwesomeIcon icon="paint-brush" />
       </CardIcon>
-      <CardTitle>Creative Coding</CardTitle>
+      <CardTitle>Working Out</CardTitle>
       <CardText>
-        I love creative coding because I do both coding & designing. making
-        beautiful art with code is very satisfying to me.
+        I like to stay and physically fit and active. I hit the gym five times a week.
       </CardText>
     </Card>
   </Flex>
@@ -58,29 +55,29 @@ const Home = () => {
         {/* <Parallax y={[50, -50]} className="home__text"> */}
         <div className="home__text">
           <p>Hello, I’m</p>
-          <h1>ANURAG HAZRA</h1>
-          <p className="adjust">CREATIVE FRONT-END WEB DEVELOPER</p>
+          <h1>SARTHAK BANSAL</h1>
+          <p className="adjust">A CREATIVE SOFTWARE DEVELOPER</p>
 
           <div className="home__CTA">
             <Button className="cta" as="a" href="#">
-              Download Resume
+               My Resume
             </Button>
 
             <div className="home__social">
               <IconLink
                 label="github"
                 icon={['fab', 'github']}
-                href="//github.com/anuraghazra"
+                href="//github.com/sarthakswaroop"
               />
               <IconLink
                 label="twitter"
                 icon={['fab', 'twitter']}
-                href="//twitter.com/anuraghazru"
+                href="//twitter.com/sarthak_swaroop"
               />
               <IconLink
-                label="codepen"
+                label="LinkedIn"
                 icon={['fab', 'codepen']}
-                href="//codepen.io/anuraghazra"
+                href="//linkedin.com/ssb00"
               />
             </div>
           </div>
@@ -91,7 +88,7 @@ const Home = () => {
 
       {/* Things I LOVE */}
       <PageHeader style={{ marginBottom: 30 }}>
-        Things I love <i className="fas fa-heart" />
+        What I like to do <i className="fas fa-heart" />
       </PageHeader>
       <ThingsILove />
     </HomeWrapper>
