@@ -9,6 +9,7 @@ module.exports = {
     siteUrl: config.siteUrl,
     siteLogo: config.siteLogo,
     siteBanner: config.siteBanner,
+    pathPrefix: '/portfolio',
   },
   plugins: [
     // MARKDOWN
