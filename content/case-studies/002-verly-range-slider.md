@@ -1,5 +1,5 @@
 ---
-title: Verly Range Slider
+title: Covid Live Count
 excerpt: Verly Range Slider is one of my fun projects which uses my Verly.js physics engine, and it also got mentioned in CodepenSpark. verly range slider got viral on the net and got over 15K views on codepen.io. It uses Verlet physics to simulate those delightful dangly sliders.
 
 iframe: //codepen.io/anuraghazra/embed/agKJEd/?default-tab=result&theme-id=light

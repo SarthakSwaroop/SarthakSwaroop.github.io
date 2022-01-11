@@ -1,5 +1,5 @@
 ---
-title: BugVilla
+title: Chat App
 excerpt:
   Universal bug tracker for everyone! BugVilla allows team members to collaborate, discuss and kill bugs effectively.
 

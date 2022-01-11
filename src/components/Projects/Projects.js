@@ -56,10 +56,10 @@ const Projects = () => {
           links={
             <ProjectLinks>
               <Button as={Link} to={node.fields.slug}>
-                Case Study
+                More Details
               </Button>
               <Button target="__blank" as="a" href={node.frontmatter.demo}>
-                Live Demo
+                Live
               </Button>
               <IconButton
                 label="github"
