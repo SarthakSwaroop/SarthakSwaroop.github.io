@@ -6,6 +6,7 @@ import {
   faLinkedin,
   faDribbble,
   faTwitter,
+  faInstagram,
   faFacebook,
   faReddit,
   faJs,
@@ -30,12 +31,17 @@ import {
   faMoon,
   faSun,
   faEdit,
+  faGamepad,
+  faDumbbell,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
   faGithub,
+  faDumbbell,
   faDribbble,
+  faGamepad,
   faLinkedin,
+  faInstagram,
   faTwitter,
   faFacebook,
   faReddit,

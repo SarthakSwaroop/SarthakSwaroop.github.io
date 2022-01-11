@@ -26,21 +26,21 @@ const ThingsILove = () => (
 
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon={['fab', 'js']} />
+        <FontAwesomeIcon icon="gamepad" />
       </CardIcon>
       <CardTitle>Gaming</CardTitle>
       <CardText>
-        I like to play video games when I am bored. I play my playstaion to release stress.
+        I like to play video games when I am bored. I turn to my playstation to release stress.
       </CardText>
     </Card>
 
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon="paint-brush" />
+        <FontAwesomeIcon icon="dumbbell" />
       </CardIcon>
       <CardTitle>Working Out</CardTitle>
       <CardText>
-        I like to stay and physically fit and active. I hit the gym five times a week.
+        I like to stay physically fit and active. I hit the gym five times a week.
       </CardText>
     </Card>
   </Flex>
@@ -69,16 +69,19 @@ const Home = () => {
                 icon={['fab', 'github']}
                 href="//github.com/sarthakswaroop"
               />
+
               <IconLink
                 label="twitter"
                 icon={['fab', 'twitter']}
                 href="//twitter.com/sarthak_swaroop"
               />
+
               <IconLink
                 label="LinkedIn"
-                icon={['fab', 'codepen']}
+                icon={['fab', 'linkedin']}
                 href="//linkedin.com/ssb00"
               />
+
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ const About = () => {
       <SkewBg />
       <AboutInfo>
         <div>
-          <Avatar src="hfest_avatar_2.jpg" />
+          <Avatar src="52138161.jpg" />
         </div>
         <p>
           Hi, I'm Sarthak Bansal, a Sophomore majoring in Computer Science at
