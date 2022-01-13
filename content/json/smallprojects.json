@@ -1,14 +1,14 @@
 [
   {
-    "title": "Creative Chat",
+    "title": "Password Generator",
     "links": {
       "demo": "https://creativechat.herokuapp.com",
       "src": "https://github.com/anuraghazra/creativechat"
     },
-    "description": "Creative Chat is a realtime fun chatting app. where users can draw with colors in the canvas and communicate through art."
+    "description": "Password Generator is a simple web application which allows users to generate random passwords with different constraints."
   },
   {
-    "title": "Verly.js",
+    "title": "Chat App",
     "links": {
       "demo": "https://anuraghazra.github.io/Verly.js",
       "src": "https://github.com/anuraghazra/Verly.js"
@@ -22,21 +22,5 @@
       "src": "https://github.com/anuraghazra/simplerockets"
     },
     "description": "Simple Rockets is an online multiplayer game made with NodeJS and Socket.io. All of the players can join the game with their unique name and play."
-  },
-  {
-    "title": "ParticleBrush",
-    "links": {
-      "demo": "https://anuraghazra.github.io/ParticleBrush/",
-      "src": "https://github.com/anuraghazra/ParticleBrush"
-    },
-    "description": "Amazing Drawing App With Particles. Lots Of Colorful Particles."
-  },
-  {
-    "title": "CanvasFun",
-    "links": {
-      "demo": "https://anuraghazra.github.io/CanvasFun",
-      "src": "https://github.com/anuraghazra/CanvasFun"
-    },
-    "description": "Collection of CreativeCoding projects."
   }
 ]
