@@ -67,10 +67,11 @@ const Skills = () => (
 
       {/* <SkillPie percent={90} name={"JavaScript"} /> */}
       <Flex className="skill__icons" justify="space-around" align="center">
-        <FontAwesomeIcon icon={['fab', 'html5']} size="5x" />
+        <FontAwesomeIcon icon={['fab', 'java']} size="5x" />
         <FontAwesomeIcon icon={['fab', 'js']} size="5x" />
         <FontAwesomeIcon icon={['fab', 'react']} size="5x" />
         <FontAwesomeIcon icon={['fab', 'node']} size="5x" />
+        <FontAwesomeIcon icon={['fab', 'git']} size="5x" />
       </Flex>
 
       <Hidden md xs sm>

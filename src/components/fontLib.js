@@ -15,6 +15,8 @@ import {
   faCodepen,
   faReact,
   faNode,
+  faJava,
+  faGit,
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faPaintBrush,
@@ -64,6 +66,8 @@ library.add(
   faTimes,
   faMoon,
   faSun,
-  faEdit
+  faEdit,
+  faJava,
+  faGit
 );
 config.autoAddCss = false;
