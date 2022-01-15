@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import svgRect from '@src/static/home_rect.svg';
+import resume from '@src/static/my-resume.png';
 
 import { HeroCard } from './HeroCard';
 import { HomeWrapper, Intro } from './Home.style';
@@ -59,7 +60,7 @@ const Home = () => {
           <p className="adjust">A CREATIVE SOFTWARE DEVELOPER</p>
 
           <div className="home__CTA">
-            <Button className="cta" as="a" href="#">
+            <Button className="cta" as="a" href={resume}>
                My Resume
             </Button>
 
