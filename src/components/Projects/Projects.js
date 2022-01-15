@@ -77,14 +77,13 @@ const Projects = () => {
               <Tags>
                 <FontAwesomeIcon icon={['fab', 'js']} />
                 <FontAwesomeIcon icon={['fab', 'html5']} />
-                <FontAwesomeIcon icon={['fab', 'react']} />
               </Tags>
             </ProjectPreview>
           }
         />
       ))}
 
-      <SmallProjects />
+     
     </ProjectsWrapper>
   );
 };

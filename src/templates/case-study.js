@@ -16,7 +16,7 @@ import { InfoTitle, CaseStudyWrapper } from './case-study.style';
 
 const CaseStudy = ({ data }) => {
   const baseSlugUrl =
-    'https://anuraghazra.github.io' + data.markdownRemark.fields.slug;
+    'https://sarthakswaroop.github.io' + data.markdownRemark.fields.slug;
   const study = data.markdownRemark.frontmatter;
 
   const infoLinks = study.info.links && (
@@ -41,7 +41,7 @@ const CaseStudy = ({ data }) => {
 
           <ProjectLinks className="case__links">
             <Button target="__blank" as="a" href={study.demo}>
-              Live Demo
+              Live
             </Button>
             <IconButton
               label="github"
@@ -79,15 +79,7 @@ const CaseStudy = ({ data }) => {
               dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
             />
           }
-          aside={
-            <div>
-              <h4>Share on</h4>
-              <SocialShareSection
-                baseSlugUrl={baseSlugUrl}
-                title={study.title}
-              />
-            </div>
-          }
+
         />
       </CaseStudyWrapper>
     </Layout>

@@ -24,7 +24,7 @@ const About = () => {
           <a className="about__link" href="https://umass.edu">
             University of Massachusetts Amherst
           </a>{' '}
-          . I have a passion for software and web development and love to code during free time. I can work independently and also am team player with ability to multitask; fast learner with basic knowledge of Python, C, and MongoDB. I am fluid in HTML/CSS, Java, and JavaScript with a good knowledge of Data Structures and Algorithms.
+          . I have a passion for software and web development and love to code during free time. I can work independently and I am also a team player with ability to multitask; fast learner with basic knowledge of Python, C, and MongoDB. I have intermediate knowledge of HTML/CSS, Java, and JavaScript and a good knowledge of Data Structures and Algorithms.
           <br />
           <br />I am passionate about neat design and I'm always looking for ideas to build and prototype. If you share the same passion, feel free to get in touch.
           <br />
