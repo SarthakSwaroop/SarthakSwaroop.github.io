@@ -3,8 +3,8 @@ title: Covid Live Count
 excerpt: This webpage, created with React, displays the live count of covid19 cases and total deaths caused by covid19. The user can use this covid counter to see the global covid19 statistics or choose a specific country. This app uses charts to display the trends in total number of cases and deaths by this deadly virus.
 
 iframe: //sarthakswaroop.github.io/covid-live-count
-demo: //sarthakswaroop.github.io/covid-live-counter
-src: //sarthakswaroop.github.io/covid-live-counter
+demo: //sarthakswaroop.github.io/covid-live-count
+src: //sarthakswaroop.github.io/covid-live-count
 
 info:
   idea: The main idea was to make it easy for people to see the trend of covid-19 cases in their country. It i
