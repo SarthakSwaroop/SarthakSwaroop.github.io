@@ -11,7 +11,7 @@ import Contact from '@components/Contact/Contact';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Sarthak Bansal - Software Developer" />
+    <SEO title="Sarthak S Bansal - Software Developer" />
 
     <Home />
     <About />
